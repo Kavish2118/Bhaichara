@@ -1,0 +1,113 @@
+:root {
+    --card-height: 300px;
+    --card-width: calc(var(--card-height) / 1.5);
+}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+    width: 100vw;
+    height: 100vh;
+    
+}
+header {
+    padding: 0.2%;
+    font-size: 40px;
+    left: 0;
+    padding-bottom: 5px;
+    background: #333;
+    color: #fff;
+    padding-top: 0; 
+    height: 150px;
+    border-bottom: #0779e4 3px solid;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+header a {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 10px;
+}
+header ul {
+    gap: 20px;
+    padding-bottom: 10px;
+    font-weight: 200px;
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+.home{
+    font-style: bold;
+    font-size: 20px;
+    font-weight: 200px;
+}
+.Sign{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    padding-top: 250px;
+    margin-left: 600px;
+}
+
+.Form_head {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #1e47cf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #09c4d1;
+}

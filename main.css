@@ -1,0 +1,87 @@
+:root {
+    --card-height: 300px;
+    --card-width: calc(var(--card-height) / 1.5);
+}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+    width: 100vw;
+    height: 100vh;
+    
+}
+header {
+    padding: 0.2%;
+    font-size: 40px;
+    left: 0;
+    padding-bottom: 5px;
+    background: #333;
+    color: #fff;
+    padding-top: 0; 
+    height: 150px;
+    border-bottom: #0779e4 3px solid;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+header a {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 10px;
+}
+header ul {
+    gap: 20px;
+    padding-bottom: 10px;
+    font-weight: 200px;
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+.home{
+    font-style: bold;
+    font-size: 20px;
+    font-weight: 200px;
+}
+.Sign{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.Border {
+    padding: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 20%;
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: solid black 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.box a{
+    color: black;
+    text-decoration: none;
+} *
+.box:hover{
+    transform: scale(1.2);
+    width: 400px;
+    transform:translateY(-5px) translateX(-5px) ;
+    border: dotted black 5px ;
+    border-radius: 50px;
+    font-size: 20px;
+}
